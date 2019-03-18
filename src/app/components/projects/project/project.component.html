@@ -1,1 +1,5 @@
-<h1 class="display-5 text-center">Projects </h1>
+<h1 class="display-5 text-center">{{project.title | lowercase}} </h1>
+<br>
+<p class="font-italic text-sm">  {{ project.description | lowercase }}</p>
+<p class="font-italic text-sm">  {{ project.url | lowercase }}</p>
+<p class="font-italic text-sm">  {{ project.github_url | lowercase }}</p>

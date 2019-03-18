@@ -1,1 +1,2 @@
-<h1 class="display-5 text-center">Projects </h1>
+<app-project-item *ngFor='let project of projects' [project]='project'></app-project-item>
+<p class="lead" *ngIf="!projects"> There are no projects listed</p>
