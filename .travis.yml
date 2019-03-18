@@ -24,9 +24,9 @@ cache:
     - node_modules
 
 script:
-  - npm run lint
-  - ng test --no-watch --no-progress
   - ng build --prod
+  - ng test --no-watch --no-progress
+
   # - xvfb-run npm run e2e
 
 # deploy:
