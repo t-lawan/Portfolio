@@ -17,17 +17,16 @@ addons:
       - google-chrome
     packages:
       - google-chrome-stable
-install:
-  - npm run install
-  
+before_script: # commands to run before the build step
+  - npm install -g @angular/cli
 cache:
   directories:
     - node_modules
 
 script:
   - npm run lint
-  - npm run test -- --no-watch --no-progress
-  - npm run build --prod
+  - ng test --no-watch --no-progress
+  - ng build --prod
   # - xvfb-run npm run e2e
 
 # deploy:
