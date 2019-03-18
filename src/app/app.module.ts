@@ -14,6 +14,7 @@ import { GamesComponent } from './components/games/games.component';
 import { FilmService } from './services/film.service';
 import { FilmItemComponent } from './components/films/film-item/film-item.component';
 import { AlertComponent } from './components/alert/alert.component';
+import { ProjectItemComponent } from './components/projects/project-item/project-item.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { AlertComponent } from './components/alert/alert.component';
     ProjectsComponent,
     GamesComponent,
     FilmItemComponent,
-    AlertComponent
+    AlertComponent,
+    ProjectItemComponent
   ],
   imports: [
     BrowserModule,
