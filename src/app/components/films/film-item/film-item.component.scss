@@ -1,0 +1,11 @@
+@import '../../../../assets/sass/variables';
+.card {
+    margin: 1em 0; 
+    background-color: $gray-100;
+
+    &:hover {
+        border: 0.1em solid $light-blue;
+        background-image: linear-gradient(to bottom right,  $light-blue, $gray-100);
+
+    }
+}

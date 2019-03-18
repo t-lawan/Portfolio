@@ -1,0 +1,22 @@
+@import '../../../../assets/sass/variables';
+.nav-pills {
+    background-color: transparent;
+    margin: 2em 0;
+}
+
+.nav-link {
+    background-color: transparent;
+    color: $gray-800;
+
+}
+
+.nav-link.active {
+        background-color: transparent;
+        color: $gray-600;   
+}
+
+a {
+    &:hover {
+        color: $pastel-blue
+    }
+}

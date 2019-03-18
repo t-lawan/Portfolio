@@ -1,0 +1,8 @@
+<h1 class="display-5 text-center">{{film.title | lowercase}} </h1>
+<br>
+<div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" [src]="videoUrl" frameborder="0" webkitallowfullscreen
+        mozallowfullscreen allowfullscreen></iframe>
+</div>
+<br>
+<p class="font-italic text-sm">  {{ film.description | lowercase }}</p>

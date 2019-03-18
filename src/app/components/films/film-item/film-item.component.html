@@ -1,0 +1,7 @@
+<div class="card" routerLink='/videos/{{film.id}}'>
+  <div class="card-body">
+    <h5 class="card-title">{{ film.title | lowercase }}</h5>
+        <img [src]="film.thumbnail_url"class="img-fluid" alt="Responsive image">
+    <p class="card-text">{{ film.description | lowercase}}</p>
+  </div>
+</div>
