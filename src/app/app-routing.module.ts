@@ -10,9 +10,8 @@ import { GameComponent } from './components/games/game/game.component';
 
 const routes: Routes = [
     {path: '', component: HomeComponent},
-    {path: 'projects', component: ProjectsComponent, pathMatch: 'full', children: [
-        {path: ':id', component: ProjectComponent}
-    ]},
+    {path: 'projects', component: ProjectsComponent, pathMatch: 'full'},
+    {path: 'projects/:id', component: ProjectComponent,  pathMatch: 'full'},
     {path: 'videos', component: FilmsComponent, pathMatch: 'full'},
     {path: 'videos/:id', component: FilmComponent, pathMatch: 'full'},
 
