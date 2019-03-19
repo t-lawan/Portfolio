@@ -14,10 +14,10 @@ export class FilmService {
       thumbnail_url: 'https://via.placeholder.com/150/e6f9ff/e6f9ff?Text=mount_silver'
     },
     {
-      id: 'mount_silver_duplicate',
-      title: 'Mount Silver',
-      description: 'Music video directed and edited by myself for Master Of Inane Conversation (MIC)',
-      video_url: 'https://player.vimeo.com/video/309781338',
+      id: 'david_in_switzerland',
+      title: 'Happy Birthday David',
+      description: 'David celebrates his 25th orbit around the sun.',
+      video_url: 'https://player.vimeo.com/video/172254952',
       thumbnail_url: 'https://via.placeholder.com/150/e6f9ff/e6f9ff?Text=mount_silver'
     }
   ];
