@@ -1,11 +1,11 @@
 @import '../../../../assets/sass/variables';
-.card {
-    margin: 1em 0; 
-    background-color: $gray-100;
-
+@import '../../../../assets/sass/_mixins/for-size.scss';
+img {
+    margin: 1em 0;
+    border: none;
+    opacity: 0.5;
     &:hover {
-        border: 0.1em solid $light-blue;
-        background-image: linear-gradient(to bottom right,  $light-blue, $gray-100);
-
+        opacity: 0.7;
+        cursor: cell;
     }
 }
