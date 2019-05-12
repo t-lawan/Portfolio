@@ -1,4 +1,5 @@
-<app-film-item *ngFor="let film of films" [film]="film"></app-film-item>
-<p class="lead" *ngIf="!films"> There are no films listed</p>
+<div class="gif-container">
+    <img *ngFor='let film of films' src='{{film.thumbnail_url}}' class="img-fluid gif-item" alt="{{film.title}}" routerLink='/videos/{{film.id}}'>
+</div>
 
-  
+<p class="lead" *ngIf="!films"> There are no films listed</p>

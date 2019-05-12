@@ -12,7 +12,7 @@ export class FilmsComponent implements OnInit {
 ;  constructor( private filmService: FilmService) { }
 
   ngOnInit() {
-    this.films = this.filmService.getAllFilms();
+    this.films = this.filmService.getAll();
   }
 
 }
