@@ -7,11 +7,11 @@ import { IProject } from '../interfaces/IProject';
 export class ProjectService {
   private projects: IProject[] = [
     {
-      id: 'contract',
-      title: 'Contract App',
-      description: 'This is a contract app',
+      id: 'compare_yourself',
+      title: 'Compare Yourself App',
+      description: 'This is an app I built using React following a Udemy Course. This is hosted on AWS S3 and utilises a Google Firebase for authentication and database storage.',
       github_url: 'string',
-      url: 'string'
+      url: 'http://compare-yourself.akinsola.net/'
     }
   ]
   constructor() { }
