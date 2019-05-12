@@ -1,0 +1,23 @@
+@import '../../../assets/sass/_mixins/for-size.scss';
+
+app-film-item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+
+    @include for-size(desktop-up)  {
+        // margin: 1em 2em;
+        align-content: space-between;
+        justify-content: center;
+    }
+
+    @include for-size(phone-only)  {
+        // margin: 1em 2em;
+        flex-direction: column;
+    }
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}

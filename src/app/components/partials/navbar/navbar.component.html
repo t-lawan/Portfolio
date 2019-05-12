@@ -1,5 +1,3 @@
 <nav class="nav nav-pills flex-column flex-lg-row">
-  <a class="flex-sm-fill text-lg-center nav-link h3" routerLink='/videos' routerLinkActive='active'>videos</a>
-  <a class="flex-sm-fill text-sm-center nav-link h3" routerLink='/projects' routerLinkActive='active'>projects</a>
-  <a class="flex-sm-fill text-sm-center nav-link h3" routerLink='/games' routerLinkActive='active'>games</a>
+  <a *ngFor='let header of headers' class="flex-sm-fill text-lg-center nav-link h3" routerLink='/{{header.link}}' routerLinkActive='active'>{{header.title}}</a>
 </nav>

@@ -16,7 +16,7 @@ export class FilmComponent implements OnInit {
 
   ngOnInit() {
     const id = this.route.snapshot.paramMap.get('id');
-    this.film = this.filmService.getFilm(id);
+    this.film = this.filmService.getOne(id);
     this.videoUrl = this.sanitiser.bypassSecurityTrustResourceUrl(this.film.video_url);
   }
 

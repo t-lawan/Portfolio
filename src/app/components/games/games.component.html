@@ -1,3 +1,4 @@
-<p>
-  games works!
-</p>
+<div class="gif-container">
+  <img *ngFor='let game of games' src='{{game.thumbnail_url}}' class="img-fluid gif-item" alt="{{game.title}}" routerLink='/games/{{game.id}}'>
+</div>
+<p class="lead" *ngIf="!games"> There are no games listed</p>

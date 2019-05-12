@@ -1,0 +1,135 @@
+@-webkit-keyframes color-change {
+    0% { 
+        background: -webkit-linear-gradient($pastel-blue, $gray-300);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+    }
+    25% { 
+        background: -webkit-linear-gradient($light-blue, $pastel-blue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+    }
+    50% {
+        background: -webkit-linear-gradient($pastel-blue, $gray-500);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    75% { 
+        background: -webkit-linear-gradient($gray-300, $light-blue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+     }
+    100% { 
+        background: -webkit-linear-gradient($pastel-blue, $light-blue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+     }
+}
+@-moz-keyframes color-change {
+    0% { 
+        background: -webkit-linear-gradient($pastel-blue, $gray-300);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+    }
+    25% { 
+        background: -webkit-linear-gradient($light-blue, $pastel-blue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+    }
+    50% {
+        background: -webkit-linear-gradient($pastel-blue, $gray-500);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    75% { 
+        background: -webkit-linear-gradient($gray-300, $light-blue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+     }
+    100% { 
+        background: -webkit-linear-gradient($pastel-blue, $light-blue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+     }
+}
+@-ms-keyframes color-change {
+    0% { 
+        background: -webkit-linear-gradient($pastel-blue, $gray-300);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+    }
+    25% { 
+        background: -webkit-linear-gradient($light-blue, $pastel-blue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+    }
+    50% {
+        background: -webkit-linear-gradient($pastel-blue, $gray-500);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    75% { 
+        background: -webkit-linear-gradient($gray-300, $light-blue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+     }
+    100% { 
+        background: -webkit-linear-gradient($pastel-blue, $light-blue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+     }
+}
+@-o-keyframes color-change {
+    0% { 
+        background: -webkit-linear-gradient($pastel-blue, $gray-300);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+    }
+    25% { 
+        background: -webkit-linear-gradient($light-blue, $pastel-blue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+    }
+    50% {
+        background: -webkit-linear-gradient($pastel-blue, $gray-500);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    75% { 
+        background: -webkit-linear-gradient($gray-300, $light-blue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+     }
+    100% { 
+        background: -webkit-linear-gradient($pastel-blue, $light-blue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+     }
+}
+@keyframes color-change {
+    0% { 
+        background: -webkit-linear-gradient($pastel-blue, $gray-300);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+    }
+    25% { 
+        background: -webkit-linear-gradient($light-blue, $pastel-blue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+    }
+    50% {
+        background: -webkit-linear-gradient($pastel-blue, $gray-500);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    75% { 
+        background: -webkit-linear-gradient($gray-300, $light-blue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+     }
+    100% { 
+        background: -webkit-linear-gradient($pastel-blue, $light-blue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+     }
+}

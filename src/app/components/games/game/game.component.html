@@ -1,1 +1,18 @@
-<h1 class="display-5 text-center">Games </h1>
+<h1 class="display-5 text-center">{{game.title | lowercase}} </h1>
+<br>
+<div class="gif-container">
+    <img src='{{game.thumbnail_url}}' class="img-fluid gif-item" alt="{{game.title}}">
+    <p> the game will be displayed where the gif is currently displayed</p>
+    <!-- <div id="gameContainer" class="gif-item" style="width: 960px; height: 600px; margin: auto"></div> -->
+</div>
+
+<!-- <unity-app></unity-app> -->
+
+
+
+
+
+
+
+<br>
+<p class="font-italic text-sm"> {{ game.description | lowercase }}</p>

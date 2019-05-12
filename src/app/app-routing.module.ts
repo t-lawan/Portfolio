@@ -14,10 +14,8 @@ const routes: Routes = [
     {path: 'projects/:id', component: ProjectComponent,  pathMatch: 'full'},
     {path: 'videos', component: FilmsComponent, pathMatch: 'full'},
     {path: 'videos/:id', component: FilmComponent, pathMatch: 'full'},
-
-    {path: 'games', component: GamesComponent, pathMatch: 'full',  children: [
-        {path: ':id', component: GameComponent}
-    ]},
+    {path: 'games', component: GamesComponent, pathMatch: 'full'},
+    {path: 'games/:id', component: GameComponent, pathMatch: 'full'},
     {path: '**', component: HomeComponent}
 ];
 
