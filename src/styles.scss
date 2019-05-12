@@ -2,8 +2,42 @@
 @import './assets/sass/variables';
 @import './assets/sass/_animations/color-change.scss';
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import './assets/sass/_mixins/for-size.scss';
 body {
-    background-color: $gray-400 !important;
+    cursor: url('./assets/images/surfer.png'), pointer;
+    background-color: darken($gray-400, 60%) !important;
+    background-image: url('./assets/images/background.jpg');
+    // background-blend-mode: color;
     font-family: 'EB Garamond', sans-serif !important;
+}
+
+.gif-container {
+    display: flex;
+    // flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+
+    @include for-size(desktop-up)  {
+        // margin: 1em 2em;
+        align-content: space-between;
+        justify-content: center;
+    }
+
+    @include for-size(phone-only)  {
+        // margin: 1em 2em;
+        flex-direction: column;
+    }
+}
+
+.gif-item {
+    margin: 1em 0;
+    border: none;
+    opacity: 0.5;
+    &:hover {
+        opacity: 0.7;
+    }
 }
 
